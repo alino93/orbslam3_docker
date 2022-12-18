@@ -28,7 +28,7 @@ Steps to compile the Orbslam3 on the sample dataset:
 - `./download_dataset_sample.sh`
 - `./build_container_cpu.sh` or `build_container_cuda.sh` depending on your machine.
 
-** I build fails, you need more cpu cores and it closes processes duiring the build. To avoid that you can modify `build.sh` and build from inside the docker.
+** I build fails, you need more cpu cores and it closes processes duiring the build. To avoid that you can modify `build.sh` and build from inside the docker:
 - `sudo docker exec -it orbslam3 bash`
 - `sudo nano build.sh`
 - remove all `-j` after `make -j` to limit using one core during the build.
