@@ -15,7 +15,7 @@ Based on which graphic driver you are running, you should choose the proper dock
 ## Compilation and Running
 
 Install docker:
-[Install docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
+* [Install docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
 * If curl install gives you an error, try:
  - `sudo snap install curl`
 * To run using docker use `sudo docker` or create a [user group](https://docs.docker.com/engine/install/linux-postinstall/)
